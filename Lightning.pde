@@ -2,8 +2,6 @@ int startX = 0;
 int startY = 300;
 int endX = 0;
 int endY = 300;
-int e = (int)(Math.random() * 10) + 1;
-int c = (int)(Math.random()*20) - 9;
 
 void setup(){
   size(600,600);
@@ -13,7 +11,6 @@ void setup(){
 
 void mousePressed(){
   redraw();
-  
 }
 
 void draw(){
